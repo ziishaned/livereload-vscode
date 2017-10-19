@@ -18,9 +18,9 @@ export default function () {
 
         delayForUpdate: workspace.getConfiguration().get('livereload.delayForUpdate') || 0,
 
-        exts: workspace.getConfiguration().get('livereload.exts') ? workspace.getConfiguration().get('livereload.exts').split(',') : '',
+        exts: workspace.getConfiguration().get('livereload.exts') ? _.split(workspace.getConfiguration().get('livereload.exts'), ',') : '',
 
-        exclusions: workspace.getConfiguration().get('livereload.exclusions') ? workspace.getConfiguration().get('livereload.exclusions').split(',') : ''
+        exclusions: workspace.getConfiguration().get('livereload.exclusions') ? _.split(workspace.getConfiguration().get('livereload.exclusions'), ',') : ''
     };
 
     config.exts = _.chain(config.exts).map(ext => ext.trim()).concat(DEFAULT_EXTS).uniq().value();

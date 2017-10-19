@@ -1,0 +1,75 @@
+{
+    "name": "livereload",
+    "displayName": "livereload",
+    "description": "LiveReload plugin for VS Code",
+    "version": "0.0.1",
+    "publisher": "zeeshanu",
+    "author": {
+        "name": "Zeeshan Ahmed",
+        "email": "ziishaned@gmail.com",
+        "url": "zeeshanu.github.io"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "galleryBanner": {
+        "color": "#2d4794",
+        "theme": "dark"
+    },
+    "keywords": [
+        "live reload",
+        "live preview"
+    ],
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.livereload"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.livereload",
+                "title": "LiveReload: Enable/disable server"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    },
+    "preview": false,
+    "license": "MIT",
+    "icon": "icon.png",
+    "homepage": "https://github.com/zeeshanu/livereload",
+    "bugs": {
+        "url": "https://github.com/zeeshanu/livereload/issues",
+        "email": "ziishaned@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zeeshanu/livereload.git"
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^7.0.43",
+        "tslint": "^5.7.0",
+        "typescript": "^2.5.3",
+        "vscode": "^1.1.5"
+    },
+    "dependencies": {
+        "chokidar": "^1.7.0",
+        "lodash": "^4.17.4",
+        "ws": "^1.1.1"
+    }
+}

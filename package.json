@@ -44,14 +44,14 @@
     "preview": false,
     "license": "MIT",
     "icon": "icon.png",
-    "homepage": "https://github.com/zeeshanu/livereload",
+    "homepage": "https://github.com/zeeshanu/vscode-livereload",
     "bugs": {
-        "url": "https://github.com/zeeshanu/livereload/issues",
+        "url": "https://github.com/zeeshanu/vscode-livereload/issues",
         "email": "ziishaned@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zeeshanu/livereload.git"
+        "url": "https://github.com/zeeshanu/vscode-livereload.git"
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",

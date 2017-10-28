@@ -39,7 +39,53 @@
                 "language": "html",
                 "path": "./snippets/html.json"
             }
-        ]
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "LiveReload configuration",
+            "properties": {
+                "livereload.debug": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "To show debug messages in console."
+                },
+                "livereload.port": {
+                    "type": "integer",
+                    "default": 35729,
+                    "description": "To specify the listening port."
+                },
+                "livereload.useHTTPS": {
+                    "type": ["object", "null"],
+                    "default": null,
+                    "description": "An optional object of options to be passed to https.createServer (if not provided, http.createServer is used instead)."
+                },
+                "livereload.applyCSSLive": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Tells LiveReload to reload CSS files in the background instead of refreshing the page. The default for this is true."
+                },
+                "livereload.applyImageLive": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Tells LiveReload to reload image files in the background instead of refreshing the page. The default for this is true."
+                },
+                "livereload.delayForUpdate": {
+                    "type": "integer",
+                    "default": 0,
+                    "description": "To add a delay (in miliseconds) between when livereload detects a change to the filesystem and when it notifies the browser."
+                },
+                "livereload.exts": {
+                    "type": "string",
+                    "default": "html,htm,css,js,png,gif,jpg,php,php5,py,rb,erb,coffee,twig",
+                    "description": "To include additional extentions that you want to observe e.g. jade,scss."
+                },
+                "livereload.exclusions": {
+                    "type": "string",
+                    "default": ".DS_Store,.gitignore,.git,.svn,.hg",
+                    "description": "To specify additional exclusion patterns e.g. html, images."
+                }
+            }
+        }
     },
     "preview": false,
     "license": "MIT",

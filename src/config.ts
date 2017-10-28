@@ -1,7 +1,7 @@
 import * as _ from 'lodash';
 import { workspace } from 'vscode';
 
-const DEFAULT_EXTS: string[] = 'html htm css js png gif jpg php php5 py rb erb coffee'.split(' ');
+const DEFAULT_EXTS: string[] = 'html htm css js png gif jpg php php5 py rb erb coffee twig'.split(' ');
 const DEFAULT_EXCLUSIONS: string[] = '.DS_Store .gitignore .git .svn .hg'.split(' ');
 
 export default function () {

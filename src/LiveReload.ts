@@ -1,7 +1,7 @@
 import config from './config';
 import Server from './Server';
 import { resolve } from 'path';
-import { StatusBarUi } from './StatusbarUi'
+import { StatusBarUi } from './StatusBarUi'
 import { window, workspace, StatusBarItem, StatusBarAlignment } from 'vscode';
 
 export default class LiveReload {

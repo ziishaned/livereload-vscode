@@ -2,12 +2,12 @@
     "name": "livereload",
     "displayName": "livereload",
     "description": "LiveReload plugin for VS Code",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "publisher": "zeeshanu",
     "author": {
         "name": "Zeeshan Ahmed",
         "email": "ziishaned@gmail.com",
-        "url": "zeeshanu.github.io"
+        "url": "https://zeeshanu.github.io/"
     },
     "engines": {
         "vscode": "^1.17.0"

@@ -6,8 +6,6 @@
 <img src="https://img.shields.io/vscode-marketplace/r/zeeshanu.livereload.svg" />
 </p>
 
-![]()
-
 > A web browser page reloading plugin for the VS Code editor.
 
 ## Features

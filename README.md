@@ -1,5 +1,13 @@
 # LiveReload for VS Code
 
+<p>
+<img src="https://img.shields.io/vscode-marketplace/d/zeeshanu.livereload.svg" />
+<img src="https://img.shields.io/vscode-marketplace/v/zeeshanu.livereload.svg" />
+<img src="https://img.shields.io/vscode-marketplace/r/zeeshanu.livereload.svg" />
+</p>
+
+![]()
+
 > A web browser page reloading plugin for the VS Code editor.
 
 ## Features

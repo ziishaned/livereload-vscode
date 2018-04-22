@@ -16,7 +16,7 @@
 
 ## Installing
 
-You can install the latest version of the extension via the Visual Studio Marketplace [here]().
+You can install the latest version of the extension via the Visual Studio Marketplace [here](https://marketplace.visualstudio.com/items?itemName=zeeshanu.livereload).
 
 Alternatively, open Visual Studio code, press `Ctrl+P` or `Cmd+P` and type:
 

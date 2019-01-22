@@ -12,7 +12,7 @@
     <a href="https://marketplace.visualstudio.com/items?itemName=ziishaned.livereload#review-details">
         <img src="https://img.shields.io/visual-studio-marketplace/r/ziishaned.livereload.svg?style=flat-square" alt="Rating on Marketplace">
     </a>
-    <a href="https://twitter.com/home?status=dumper.js%20by%20%40ziishaned%20http%3A//github.com/ziishaned/dumper.js">
+    <a href="https://twitter.com/home?status=LiveReload%20extension%20for%20VS%20Codeby%20%40ziishaned%20http%3A//github.com/ziishaned/livereload-vscode">
         <img src="https://img.shields.io/badge/twitter-tweet-blue.svg?style=flat-square"/>
     </a>
     <a href="https://twitter.com/ziishaned">

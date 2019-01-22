@@ -2,7 +2,7 @@
   "name": "livereload",
   "displayName": "LiveReload",
   "description": "LiveReload plugin for VS Code",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "publisher": "ziishaned",
   "author": {
     "name": "Zeeshan Ahmad",
